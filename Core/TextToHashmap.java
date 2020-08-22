@@ -1,16 +1,14 @@
 package Core;
-
-import java.util.HashMap;
-
+import java.util.concurrent.ConcurrentHashMap;
 public class TextToHashmap {
-    public static HashMap<String,String> Convert(String text, String EDelimiter, String KVDelimiter) {
+    public static ConcurrentHashMap<String,String> Convert(String text, String EDelimiter, String KVDelimiter) {
     	/**
     	 * This function converts String/Text to HashMap
     	 * @param text The text to be converted
     	 * @param EDelimiter The delimiter between every element
     	 * @param KVDelimiter The delimiter between every Key and Value in one element
     	 */
-        HashMap<String,String> out = new HashMap<String,String>();
+        ConcurrentHashMap<String,String> out = new ConcurrentHashMap<String,String>();
             String[] AText = text.split(EDelimiter);
             for (int x = 0; x < AText.length; x++) {
                 String Element = AText[x];

@@ -12,6 +12,9 @@ It's an alternative for Credentials Storing on Databases.
 * Because you want to put your own Encryption and/or Decryption Functions<br>
 * Because you don't want some kind of network connection or interaction with the database<br>
 
+### **Changelog**
+23/8/2020 - HashMap is bullshit, using ConcurrentHashMap instead.
+
 ### **Contributers**
 * Morad Abdelrasheed Mokhtar (qarqoush) "The creator lol" 🇪🇬
 

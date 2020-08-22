@@ -1,10 +1,7 @@
 package Core;
-
-import java.util.HashMap;
-import java.util.Map.Entry;
-
+import java.util.concurrent.ConcurrentHashMap;
 public class HashmapToText {
-	public static String Convert(HashMap<String,String> input, String EDelimiter, String KVDelimiter) {
+	public static String Convert(ConcurrentHashMap<String,String> input, String EDelimiter, String KVDelimiter) {
 		/**
 		 * This function Converts the HashMap to a String/Text
 		 * @param input The HashMap to be converted
@@ -14,11 +11,13 @@ public class HashmapToText {
 		String out = "";
 		int size = input.size();
 		int init = 0;
-		for (Entry<String, String> entry : input.entrySet()) {
+		for (Object entry : input.entrySet()) {
+			String key = entry.toString().substring(0,entry.toString().indexOf("="));
+			String value = entry.toString().substring(entry.toString().indexOf("=")+1,entry.toString().length());
 			if(init+1 == size) {
-				out+= entry.getKey()+KVDelimiter+entry.getValue();
+				out+= key+KVDelimiter+value;
 			}else {
-				out+= entry.getKey()+KVDelimiter+entry.getValue()+EDelimiter;
+				out+= key+KVDelimiter+value+EDelimiter;
 				init = init + 1;
 			}
 		}
