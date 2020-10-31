@@ -19,7 +19,7 @@ It's an alternative for Credentials Storing on Databases.<br>
 * معندكش راوتر<br>
 ### **Changelog التغييرات**
 23/8/2020 - HashMap is bullshit, using ConcurrentHashMap instead.<br>
-23/8/2020 - كسم هاشماب هستخدم الكونكرانت هاشماب
+23/8/2020 - هاشماب هستخدم الكونكرانت هاشماب
 ### **Contributers المتبرعين**
 * Morad Abdelrasheed Mokhtar (qarqoush) "The creator lol" 🇪🇬
 * مراد عبدالرشيد مختار "اكيد يعني" 🇪🇬 
