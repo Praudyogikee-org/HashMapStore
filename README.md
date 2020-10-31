@@ -10,7 +10,7 @@ See *Example.java*<br>
 It's an alternative for Credentials Storing on Databases.<br>
 بديل لقواعد البيانات عشان بسهل لسعادتك أنك تحط باسورد طنط عفاف وانت مش عامل ستار
 
-### **Usage and/or Why I'll use it? ايه السكسي فيها يعني؟**
+### **Usage and/or Why I'll use it? ايه فيها يعني؟**
 * Because you don't want to learn SQL "or similar technologies" for doing simple tasks such as Credentials storing<br>
 * Because you want to put your own Encryption and/or Decryption Functions<br>
 * Because you don't want some kind of network connection or interaction with the database<br>
