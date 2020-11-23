@@ -11,11 +11,10 @@ It's an alternative for Credentials Storing on Databases.<br>
 * Because you don't want to learn SQL "or similar technologies" for doing simple tasks such as Credentials storing<br>
 * Because you want to put your own Encryption and/or Decryption Functions<br>
 * Because you don't want some kind of network connection or interaction with the database<br>
-* <br>
-* <br>
+
 ### **Changelog**
 23/8/2020 - HashMap is bullshit, using ConcurrentHashMap instead.<br>
-23/8/2020 - هاشماب هستخدم الكونكرانت هاشماب
+
 ### **Contributers**
 * Morad Abdelrasheed Mokhtar (qarqoush) "The creator lol" 🇪🇬
 * Pavly Osama Halim " 🇪🇬 
