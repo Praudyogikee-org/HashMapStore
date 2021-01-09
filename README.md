@@ -14,12 +14,3 @@ It's an alternative for Credentials Storing on Databases.<br>
 
 ### **Changelog**
 23/8/2020 - HashMap is bullshit, using ConcurrentHashMap instead.<br>
-
-### **Contributers**
-* Morad Abdelrasheed Mokhtar (qarqoush) "The creator lol" 🇪🇬
-* Pavly Osama Halim " 🇪🇬 
-<p align="center">
-<img width="205" height="210" src="https://i.ya-webdesign.com/images/badge-transparent-communist-1.png">
-<br>
-<b>Programmers of the world, unite!</b>
-</p>
